@@ -1,11 +1,30 @@
 
-import { useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useAnimation } from 'framer-motion';
-import { useInView } from 'framer-motion';
 
 export function useScrollAnimation(threshold = 0.1) {
   const controls = useAnimation();
-  const [ref, inView] = useInView({ threshold });
+  const ref = useRef(null);
+  const [inView, setInView] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setInView(entry.isIntersecting);
+      },
+      { threshold }
+    );
+    
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+    };
+  }, [threshold]);
 
   useEffect(() => {
     if (inView) {
