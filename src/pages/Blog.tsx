@@ -74,7 +74,7 @@ const Blog = () => {
     {
       id: 5,
       title: 'Sustainable Branding: More Than Just a Trend',
-      excerpt: 'How to authentically integrate sustainability into your brand's identity and messaging.',
+      excerpt: "How to authentically integrate sustainability into your brand's identity and messaging.",
       date: 'January 15, 2023',
       category: 'strategy',
       image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=600',

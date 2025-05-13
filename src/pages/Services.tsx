@@ -13,7 +13,7 @@ const Services = () => {
     {
       id: 1,
       title: 'Brand Identity & Logo Design',
-      description: 'We craft distinctive visual identities that convey your brand's personality and values at a glance.',
+      description: "We craft distinctive visual identities that convey your brand's personality and values at a glance.",
       category: 'branding',
       icon: '✦',
       features: ['Logo Design', 'Brand Guidelines', 'Visual Identity', 'Brand Strategy'],
@@ -162,7 +162,7 @@ const Services = () => {
                     </div>
                     
                     <Link 
-                      to="/contact?service=${service.title}" 
+                      to={`/contact?service=${service.title}`}
                       className="text-magenta font-medium hover:text-magenta-dark transition-colors"
                     >
                       Inquire About This Service →

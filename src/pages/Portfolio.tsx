@@ -36,7 +36,7 @@ const Portfolio = () => {
       category: 'social',
       thumbnail: 'https://images.unsplash.com/photo-1600494603989-9650cf6ddd3d?auto=format&fit=crop&q=80&w=500',
       tags: ['Social Media', 'Content Creation', 'Strategy'],
-      description: 'A targeted social media campaign that increased Bloom's engagement rate by 40% and led to a 25% increase in direct sales from social channels.'
+      description: "A targeted social media campaign that increased Bloom's engagement rate by 40% and led to a 25% increase in direct sales from social channels."
     },
     {
       id: 3,
@@ -54,7 +54,7 @@ const Portfolio = () => {
       category: 'video',
       thumbnail: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&q=80&w=500',
       tags: ['Video Production', 'Storytelling', 'Campaign'],
-      description: 'A series of adventure documentaries that showcased Everest's products in real-world expeditions, building brand authenticity and consumer trust.'
+      description: "A series of adventure documentaries that showcased Everest's products in real-world expeditions, building brand authenticity and consumer trust."
     },
     {
       id: 5,
@@ -72,7 +72,7 @@ const Portfolio = () => {
       category: 'branding',
       thumbnail: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=500',
       tags: ['Product Launch', 'Brand Identity', 'Campaign'],
-      description: 'A comprehensive launch campaign for Neon's revolutionary running shoe, including brand identity, packaging, and go-to-market strategy.'
+      description: "A comprehensive launch campaign for Neon's revolutionary running shoe, including brand identity, packaging, and go-to-market strategy."
     },
   ];
   
