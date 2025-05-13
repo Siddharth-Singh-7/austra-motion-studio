@@ -34,7 +34,7 @@ const Footer = () => {
           {/* Company Info */}
           <motion.div variants={itemVariants}>
             <Link to="/" className="text-2xl font-bold text-white mb-6 inline-block">
-              AUSTRA<span className="text-magenta">.</span>
+              AUSTRA CREATIVES<span className="text-magenta">.</span>
             </Link>
             <p className="text-gray-300 mb-6">
               We help brands find their voice through design, strategy, and innovation.
